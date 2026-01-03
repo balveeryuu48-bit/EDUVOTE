@@ -4,7 +4,7 @@
 
 // Fungsi untuk menampilkan logo di sidebar
 function tampilkanLogoSidebar() {
-  const logo = localStorage.getItem("sidebarLogo") || "img/default-logo.png";
+  const logo = localStorage.getItem("sidebarLogo") || "img/default-logo-eduvote.png";
   const sidebarLogo = document.getElementById("sidebarLogo");
   if (sidebarLogo) sidebarLogo.src = logo;
 
